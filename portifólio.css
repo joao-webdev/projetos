@@ -1,355 +1,161 @@
-/* Resetando margens e preenchimento padrões */
-
+/* Reset básico */
 * {
-
     margin: 0;
-
     padding: 0;
-
     box-sizing: border-box;
-
 }
-
-
 
 /* Corpo da página */
-
 body {
-
     font-family: 'Arial', sans-serif;
-
-    background-color: #f0f2f5;
-
+    background-color: #f4f7fb;
     color: #333;
-
     line-height: 1.6;
-
 }
-
-
-
-/* Container para centralizar o conteúdo */
-
-.container {
-
-    width: 80%;
-
-    max-width: 1200px;
-
-    margin: 0 auto;
-
-}
-
-
 
 /* Cabeçalho */
-
 header {
-
-    background-color: #9C27B0; /* Cor roxa */
-
+    background-color: #333;
     color: #fff;
-
     padding: 20px 0;
-
     text-align: center;
-
 }
-
-
 
 header h1 {
-
     font-size: 2.5rem;
-
     margin-bottom: 10px;
-
 }
-
-
 
 nav ul {
-
-    list-style-type: none;
-
-    display: flex;
-
-    justify-content: center;
-
-    margin-top: 10px;
-
+    list-style: none;
 }
-
-
 
 nav ul li {
-
+    display: inline;
     margin: 0 15px;
-
 }
-
-
 
 nav ul li a {
-
     color: #fff;
-
     text-decoration: none;
-
-    font-size: 1.1rem;
-
-    transition: color 0.3s ease;
-
+    font-size: 1.2rem;
 }
-
-
 
 nav ul li a:hover {
-
-    color: #FFD700;
-
+    color: #f39c12;
 }
 
-
-
-/* Seções principais */
-
-section {
-
-    padding: 60px 0;
-
+/* Seção padrão */
+.section {
+    padding: 60px 20px;
     text-align: center;
-
 }
 
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
 
+/* Seção Sobre */
+#sobre {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
 
-h2 {
-
+#sobre h2 {
     font-size: 2rem;
-
-    margin-bottom: 20px;
-
     color: #333;
-
+    margin-bottom: 20px;
 }
 
-
-
-p {
-
-    font-size: 1.1rem;
-
-    margin-bottom: 30px;
-
+/* Seção Projetos */
+#projetos {
+    background-color: #f9f9f9;
 }
-
-
-
-/* Estilo para a seção de projetos */
 
 .projects {
-
     display: flex;
-
     justify-content: space-between;
-
-    gap: 20px;
-
+    gap: 30px;
     flex-wrap: wrap;
-
 }
-
-
 
 .project {
-
     background-color: #fff;
-
     padding: 20px;
-
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-
-    border-radius: 10px;
-
-    width: 30%;
-
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-
+    width: 30%;
+    transition: transform 0.3s ease-in-out;
 }
-
-
 
 .project:hover {
-
-    transform: translateY(-10px);
-
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-
+    transform: scale(1.05);
 }
-
-
 
 .project img {
-
     width: 100%;
-
     border-radius: 8px;
-
     margin-bottom: 15px;
-
 }
-
-
 
 .project h3 {
-
     font-size: 1.5rem;
-
-    color: #9C27B0; /* Cor roxa */
-
     margin-bottom: 10px;
-
+    color: #333;
 }
-
-
 
 .project p {
-
-    font-size: 1rem;
-
     color: #666;
-
+    font-size: 1rem;
 }
 
-
-
-/* Habilidades */
+/* Seção Habilidades */
+#habilidades {
+    background-color: #fff;
+}
 
 .skills {
-
-    list-style-type: none;
-
-    display: grid;
-
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-
-    gap: 15px;
-
-    text-align: center;
-
-    margin-top: 20px;
-
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
 }
-
-
 
 .skills li {
-
-    background-color: #fff;
-
-    padding: 15px;
-
-    border-radius: 8px;
-
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-
+    font-size: 1.3rem;
+    color: #333;
+    margin: 5px 0;
 }
 
-
-
-.skills li:hover {
-
-    transform: translateY(-5px);
-
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-
+/* Seção Contato */
+#contato {
+    background-color: #f9f9f9;
 }
-
-
-
-/* Links */
-
-a {
-
-    color: #9C27B0; /* Cor roxa */
-
-    text-decoration: none;
-
-    font-weight: bold;
-
-}
-
-
-
-a:hover {
-
-    color: #FFD700;
-
-}
-
-
-
-/* Seção de Contato */
 
 #contato p {
-
     font-size: 1.2rem;
-
-    margin-bottom: 15px;
-
+    color: #555;
 }
-
-
 
 #contato a {
-
-    font-size: 1.2rem;
-
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-
+#contato a:hover {
+    color: #f39c12;
+}
 
 /* Rodapé */
-
 footer {
-
     background-color: #333;
-
     color: #fff;
-
     text-align: center;
-
-    padding: 20px 0;
-
-    margin-top: 40px;
-
+    padding: 10px 0;
+    font-size: 1rem;
 }
-
-
-
-/* Responsividade */
-
-@media (max-width: 768px) {
-
-    .projects {
-
-        flex-direction: column;
-
-    }
-
-
-
-    .project {
-
-        width: 100%;
-
-    }
-
-}
-
-      
