@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfólio - João</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+
+
+    <!-- Cabeçalho -->
+
+    <header>
+
+        <h1>João - Desenvolvedor Web</h1>
+
+        <nav>
+
+            <ul>
+
+                <li><a href="#projetos">Projetos</a></li>
+
+                <li><a href="#habilidades">Habilidades</a></li>
+
+                <li><a href="#contato">Contato</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- Seção sobre -->
+
+    <section id="sobre" class="section">
+
+        <div class="container">
+
+            <h2>Sobre Mim</h2>
+
+            <p>Sou João, um desenvolvedor web iniciante apaixonado por criar soluções digitais e aprender novas tecnologias. Estou começando minha jornada no desenvolvimento web e busco constantemente melhorar minhas habilidades.</p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Seção Projetos -->
+
+    <section id="projetos" class="section">
+
+        <div class="container">
+
+            <h2>Meus Projetos</h2>
+
+            <div class="projects">
+
+                <!-- Novo Projeto: Blog Simples -->
+
+                <div class="project">
+
+                    <img src="images/blog.jpg" alt="Blog Simples">
+
+                    <h3>Blog Simples</h3>
+
+                    <p>Um blog simples onde você pode criar posts, exibir títulos e conteúdos, e até personalizar com imagens. Ideal para quem quer começar a aprender sobre criação de conteúdo dinâmico e responsivo.</p>
+
+                </div>
+
+                <div class="project">
+
+                    <img src="images/todo-list.jpg" alt="To-Do List (Lista de Tarefas)">
+
+                    <h3>To-Do List (Lista de Tarefas)</h3>
+
+                    <p>Uma aplicação de lista de tarefas onde o usuário pode adicionar, marcar como concluída e remover tarefas. Excelente para aprender a manipulação de DOM com JavaScript.</p>
+
+                </div>
+
+                <div class="project">
+
+                    <img src="images/calculadora.jpg" alt="Calculadora Simples">
+
+                    <h3>Calculadora Simples</h3>
+
+                    <p>Uma calculadora simples que realiza operações básicas como soma, subtração, multiplicação e divisão. Perfeito para praticar a lógica de programação e manipulação de eventos.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Seção Habilidades -->
+
+    <section id="habilidades" class="section">
+
+        <div class="container">
+
+            <h2>Habilidades</h2>
+
+            <ul class="skills">
+
+                <li>HTML</li>
+
+                <li>CSS</li>
+
+                <li>JavaScript</li>
+
+                <li>Python</li>
+
+            </ul>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Seção Contato -->
+
+    <section id="contato" class="section">
+
+        <div class="container">
+
+            <h2>Contato</h2>
+
+            <p>Você pode me encontrar nas redes sociais ou me enviar um e-mail:</p>
+
+            <p><strong>Email:</strong> <a href="mailto:joaocarlosdiass2007@gmail.com">joaocarlosdiass2007@gmail.com</a></p>
+
+            <p><strong>GitHub:</strong> <a href="https://github.com/joao-webdev" target="_blank">github.com/joao-webdev</a></p>
+
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jo%C3%A3o-carlos-dias-3a688b35a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">linkedin.com/in/joão-carlos-dias</a></p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Rodapé -->
+
+    <footer>
+
+        <p>&copy; 2025 João. Todos os direitos reservados.</p>
+
+    </footer>
+
+
+
+</body>
+
+</html>
+
